@@ -63,7 +63,8 @@ INSTALLED_APPS = (
     'maploom',
     'solo',
     'colorfield',
-    'gsschema'
+    'gsschema',
+    'osgeo_importer'
 ) + INSTALLED_APPS
 
 # database settings
@@ -189,3 +190,5 @@ if CF_ENABLED:
         from cf.settings import *
     except ImportError:
         pass
+
+OSGEO_IMPORTER_GEONODE_ENABLED = True

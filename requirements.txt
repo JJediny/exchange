@@ -1,5 +1,6 @@
 --index-url https://pypi.python.org/simple/
 
+-e git://github.com/ProminentEdge/django-osgeo-importer@master#egg=django-osgeo-importer
 -e git://github.com/GeoNode/geonode-announcements@master#egg=geonode-announcements
 -e git://github.com/GeoNode/geonode-avatar@master#egg=geonote-avatar
 -e git://github.com/GeoNode/geonode-dialogos.git@master#egg=geonode-dialogos
