@@ -25,6 +25,10 @@ from distutils.core import setup
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
+docs_requires = [
+    "mkdocs==0.15.3"
+]
+
 setup(
     name="exchange",
     version=__import__('exchange').get_version(),
@@ -32,8 +36,6 @@ setup(
     author_email="contact@boundlessgeo.com",
     description="Exchange, a platform for geospatial collaboration",
     long_description=(read('README.md')),
-    # Full list of classifiers can be found at:
-    # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Development Status :: 1 - Planning',
     ],
@@ -45,5 +47,8 @@ setup(
     zip_safe=False,
     install_requires=[
         # see requirements.txt
-    ]
+    ],
+    extras_require={
+        'docs': docs_requires
+    },
 )
