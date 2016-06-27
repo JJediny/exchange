@@ -1,0 +1,3 @@
+[submodule "exchange-documentation"]
+	path = exchange-documentation
+	url = https://github.com/boundlessgeo/exchange-documentation
