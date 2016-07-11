@@ -24,7 +24,7 @@ yum_setup()
         bzip2-devel \
         openssl-devel \
         tk-devel \
-        gdal-devel-2.0.1 \
+        gdal-devel-2.1.0 \
         libxslt-devel \
         libxml2-devel \
         libjpeg-turbo-devel \
